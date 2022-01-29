@@ -67,6 +67,7 @@ def main(file_name: str) -> None:
         print(f"Ошибка! Файл {file_name} не найден!")
     except SystemExit:
         print("--Программа завершена--")
+        raise
 
 
 if __name__ == "__main__":
